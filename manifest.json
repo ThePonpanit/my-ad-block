@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Hide Ads",
+  "version": "1.0",
+  "description": "Hides the ads on rh2plusmanga.com",
+  "permissions": ["activeTab", "https://www.rh2plusmanga.com/"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
